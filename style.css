@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  background: radial-gradient(circle at top, #2C3C53  , #0E1525);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+/*background-image: url('BG.jpg');*/
+  background-size: cover;  
+  background-repeat: no-repeat;
+}
+
+input {
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: roboto mono;
+  text-align: right  ;
+  height: 40px;
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#main-box {
+  /*border: 3px solid gray  ;*/
+  background-color: #0E1525;
+  box-shadow: 0 0 20px rgba(192, 192, 192, 0.7); 
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 400px;
+  height: 450px;
+}
+
+button {
+  font-size: 20px;
+  width: 80px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3498db;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #2980d9;
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+button.clear:hover {
+  background-color: indianred;
+}
+
+button.clear:active {
+  content: "";
+  background-color: red;
+}
+
+button.solve:hover {
+  background-color: lightgreen;
+}
+
+button.solve:active {
+  background-color: #33b249;
+}
