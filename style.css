@@ -5,23 +5,32 @@ html {
 
 
 body {
-  background: radial-gradient(circle at top, #2C3C53  , #0E1525);
+  background: radial-gradient(circle at top, #2C3C53, #0E1525);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-/*background-image: url('BG.jpg');*/
-  background-size: cover;  
+  /*background-image: url('BG.jpg');*/
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-input {
+#small-display {
+  background-color: lightcyan;
+  width: 325px;
+  height: 15px;
+  padding: 10px;
+  border: 2px, solid black;
+  border-radius: 5px;
+}
+
+#display {
   border: 3px solid black;
   font-size: 25px;
   font-family: roboto mono;
-  text-align: right  ;
+  text-align: right;
   height: 40px;
-  width: 80%;
+  width: 325px;
   margin-top: 10px;
   padding: 10px;
   margin-bottom: 20px;
@@ -31,13 +40,13 @@ input {
 #main-box {
   /*border: 3px solid gray  ;*/
   background-color: #0E1525;
-  box-shadow: 0 0 20px rgba(192, 192, 192, 0.7); 
+  box-shadow: 0 0 20px rgba(192, 192, 192, 0.7);
   padding-top: 20px;
-  padding-bottom:20px;
-  border-radius: 5px;
+  padding-bottom: 20px;
+  border-radius: 10px;
   text-align: center;
   width: 400px;
-  height: 450px;
+  height: 500px;
 }
 
 button {
